@@ -68,7 +68,7 @@
                     <p class="card-text"><%= books[i].description %></p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                        <a href="books/<%= i %> " class="btn btn-sm btn-outline-secondary">View</a>
+                        <a href="books/<%= books[i].id %> " class="btn btn-sm btn-outline-secondary">View</a>
                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                       </div>
                       <small class="text-muted"><%= books[i].timeToRead %>  mins</small>
